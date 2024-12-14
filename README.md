@@ -87,7 +87,7 @@ CUDA_VISIBLE_DEVICES=4 python inference.py \
 CUDA_VISIBLE_DEVICES=4 python inference.py \
  --config_path ./configs/VITONHD.yaml \
  --batch_size 4 \
- --model_load_path <model weight path>t \
+ --model_load_path <model weight path> \
  --repaint \
  --save_dir <save directory>
 
